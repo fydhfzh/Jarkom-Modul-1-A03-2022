@@ -48,3 +48,7 @@ kerja User Space Filesystem &#40;FUSE&#41;</a></span></h2>`
 ## 10. Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
 
 ### Sesuai dengan penjelasan pada nomor 9, maka kita dapatkan flag atau passwordnya adalah JaRkOm2022{8uK4N_CtF_k0k_h3h3h3}
+
+## Kendala
+
+### Untuk metode dekripsi menggunakan des3 lumayan susah untuk mendapatkan sumbernya di google
