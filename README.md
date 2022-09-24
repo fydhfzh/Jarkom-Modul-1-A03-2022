@@ -18,11 +18,26 @@ kerja User Space Filesystem &#40;FUSE&#41;</a></span></h2>`
 >- Detail topik = Evaluasi unjuk kerja User Space Filesystem
 <a href="https://ibb.co/VDDBkPP"><img src="https://i.ibb.co/RPPHJVV/Jarkom-4.jpg" alt="Jarkom-4" border="0"></a>
  
-## 3.
-## 4.
-## 5.
-## 6.
-## 7.
+## 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
+Menggunakan display filter `tcp.dstport == 80` or `udp.dstport == 80`
+![image](https://cdn.discordapp.com/attachments/949602435100467230/1023207809376059453/jarkom_no_3.png)
+
+## 4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+Menggunakan display filter `tcp.srcport == 21` or `udp.srcport == 21` atau bisa juga menggunakan capture filter `src port 21`
+![image](https://cdn.discordapp.com/attachments/949602435100467230/1023207809053118504/jarkom_no_4.png)
+
+## 5. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+Menggunakan display filter `tcp.srcport == 443` or `udp.srcport == 443` atau bisa juga menggunakan capture filter `src port 443`
+![image](https://cdn.discordapp.com/attachments/949602435100467230/1023207808696590387/Jarkom_no_5.png)
+
+## 6. Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
+Dengan capture fitur `dst host lipi.go.id`
+![image](https://cdn.discordapp.com/attachments/949602435100467230/1023207808335872120/Jarkom_no_6.png)
+
+## 7. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+Pertama cari IP laptop terlebih dahulu, lalu menggunakan fitur capture dengan `src host IP` (src host 192.168.245.73)
+![image](https://cdn.discordapp.com/attachments/949602435100467230/1023207807979368529/Jarkom_no_7.png)
+
 ## 8. Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
 
 ### Cari dulu file dengan ip.addr == 127.0.0.1, lalu di TCP Stream salah satu paket. Untuk total chattingan yang dilakukan terdapat 3 chattingan yang ditemukan untuk tiap stream pada beberapa paket yang berbeda.
