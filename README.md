@@ -32,6 +32,7 @@ Menggunakan display filter `tcp.srcport == 443` or `udp.srcport == 443` atau bis
 
 ## 6. Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
 Dengan capture fitur `dst host lipi.go.id`
+
 ![image](https://cdn.discordapp.com/attachments/949602435100467230/1023207808335872120/Jarkom_no_6.png)
 
 ## 7. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
