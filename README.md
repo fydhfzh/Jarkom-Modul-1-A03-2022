@@ -1,7 +1,23 @@
 # Jarkom-Modul-1-A03-2022
 
 ## 1. 
+Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
+> - Diawali dengan menulis `http.host contains monta.if.its.ac.id` pada bagian rules
+<a href="https://ibb.co/y5LWSTX"><img src="https://i.ibb.co/xGVJHvD/Jarkom-1.jpg" alt="Jarkom-1" border="0"></a>
+> - Kemudian mengklik TCP Stream pada bagian follow
+<a href="https://ibb.co/fFXBBvW"><img src="https://i.ibb.co/vqcggYW/Jarkom-2.jpg" alt="Jarkom-2" border="0"></a>
+> - Nanti akan muncul tulisan server kemudian berikut adalah servernya `Server: nginx/1.10.3`
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/NYZVCYC/Jarkom-3.jpg" alt="Jarkom-3" border="0"></a>
 ## 2.
+Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website
+monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa
+yang dibuka oleh ishaq ?
+> - Sama seperti no 1 hanya saja melihat dari http stream
+`<a href="http://monta.if.its.ac.id/index.php/topik/detailTopik/194">Evaluasi unjuk
+kerja User Space Filesystem &#40;FUSE&#41;</a></span></h2>`
+>- Detail topik = Evaluasi unjuk kerja User Space Filesystem
+<a href="https://ibb.co/VDDBkPP"><img src="https://i.ibb.co/RPPHJVV/Jarkom-4.jpg" alt="Jarkom-4" border="0"></a>
+ 
 ## 3.
 ## 4.
 ## 5.
